@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/zhihuasun/Documents/ECE438/mp2/src/receiver_main.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+arpa/inet.h
+-
+netinet/in.h
+-
+sys/types.h
+-
+sys/socket.h
+-
+unistd.h
+-
+pthread.h
+-
+
